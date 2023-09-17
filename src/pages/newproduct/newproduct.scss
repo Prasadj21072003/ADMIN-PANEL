@@ -1,0 +1,116 @@
+.createproduct{
+    width: 79%;
+    height: 1000px;
+
+    
+    position: relative;
+    top: 70px;
+    left: 20%;
+    padding-left: 10px;
+    padding-top: 20px;
+
+.wrapper{
+    width: auto;
+    height: 460px;
+
+
+padding-left: 10px;
+
+   // -webkit-box-shadow: -1px 3px 17px 0px rgba(217,182,217,1);
+     //   -moz-box-shadow: -1px 3px 17px 0px rgba(217,182,217,1);
+     //   box-shadow: -1px 3px 17px 0px rgba(217,182,217,1);
+
+    .heading{
+ 
+        margin-bottom: 5px;
+    }
+
+    .form{
+ 
+height: 75%;
+padding: 5px;
+display: flex;
+
+.left{
+width: 50%;
+height: 100%;
+
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+
+.imgfile{
+  border: none;  
+}
+
+
+label{
+    color: gray;
+    font-weight: 600;
+font-size: 13px;
+margin-bottom: 10px;
+}
+input{
+margin-bottom: 10px;
+    padding:  10px 5px;
+width: 50%;
+background-color: white;
+border-radius:5px ;
+border: 1px solid black;
+
+&:focus{
+    outline: none;
+}
+
+}
+select{
+    padding:  10px 5px;
+    border-radius:5px ;
+    width: 52%;
+border: 1px solid black;
+
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+    }
+
+    .createbutton{
+      padding-left:5px ;
+     margin-bottom: 10px;
+        height: 50px;
+
+button{
+    padding: 5px 80px;
+    background-color: blue;
+border-radius: 10px;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+    }
+}
+
